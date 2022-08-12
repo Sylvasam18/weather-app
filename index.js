@@ -41,7 +41,7 @@ function addForecast(req, res) {
 // Setup Server
 const port = 3000;
 /* Spin up the server*/
-const server = app.listen(port, listening);
+const server = app.listen(process.env.PORT || port, listening);
 function listening() {
   // console.log(server);
   console.log(`running on localhost: ${port}`);
