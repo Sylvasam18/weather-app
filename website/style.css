@@ -17,6 +17,10 @@ body {
   padding-bottom: 1em;
 }
 
+.headline {
+  font-size: 2.2em;
+}
+
 .entry {
   background: rgba(59, 74, 107, 0.4);
   margin-bottom: 1em;
