@@ -14,30 +14,12 @@ body {
   grid-gap: 1em;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
-}
-
-.holder {
+  padding-bottom: 1em;
 }
 
 .entry {
   background: rgba(59, 74, 107, 0.4);
-}
-
-#entryHolder {
-}
-
-#date {
-}
-
-#temp {
-}
-
-#content {
-}
-
-.headline {
-}
-.title {
+  margin-bottom: 1em;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
